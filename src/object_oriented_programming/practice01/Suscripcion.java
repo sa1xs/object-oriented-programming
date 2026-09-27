@@ -4,11 +4,11 @@ public class Suscripcion {
 
     String tipo;
     double costo;
-    short periocidad;
+    short periodicidad;
 
-    public Suscripcion(String tipo, double costo, short periocidad) {
+    public Suscripcion(String tipo, double costo, short periodicidad) {
         this.tipo = tipo;
         this.costo = costo;
-        this.periocidad = periocidad;
+        this.periodicidad = periodicidad;
     }
 }
