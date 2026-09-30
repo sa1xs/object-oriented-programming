@@ -35,4 +35,8 @@ public class Suscripcion {
     public void setPeriodicidad(short periodicidad) {
         this.periodicidad = periodicidad;
     }
+
+    public boolean equals(Suscripcion suscripcion) {
+        return getTipo().equals(suscripcion.getTipo()) && getPeriodicidad() == suscripcion.getPeriodicidad() && getCosto() == suscripcion.getCosto();
+    }
 }

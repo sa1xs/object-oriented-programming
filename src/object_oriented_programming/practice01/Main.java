@@ -16,5 +16,12 @@ public class Main {
         cliente3.suscribirse(
                 new Suscripcion("Netflix", 19.99, (short) 30)
         );
+
+        System.out.println(cliente1.equals(cliente1));
+        System.out.println(cliente1.equals(cliente3));
+
+        System.out.println(suscripcion1.equals(suscripcion1));
+        System.out.println(suscripcion1.equals(suscripcion2));
+
     }
 }

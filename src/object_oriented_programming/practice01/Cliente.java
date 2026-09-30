@@ -69,4 +69,8 @@ public class Cliente {
     public void suscribirse(Suscripcion suscripcion) {
         System.out.println(getNombre() + " " + getApellidos() + " adquirió una suscripción de " + suscripcion.getTipo());
     }
+
+    public boolean equals (Cliente cliente) {
+        return getCedula().equals(cliente.getCedula());
+    }
 }
