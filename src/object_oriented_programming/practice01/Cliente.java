@@ -73,4 +73,8 @@ public class Cliente {
     public boolean equals (Cliente cliente) {
         return getCedula().equals(cliente.getCedula());
     }
+
+    public String toString (){
+        return "Nombre: " + getNombre() + "" + "\nApellido: " + getApellidos() + "\nVive en: " + getUbicacion() + "\nSexo: " + getSexo();
+    }
 }

@@ -23,5 +23,7 @@ public class Main {
         System.out.println(suscripcion1.equals(suscripcion1));
         System.out.println(suscripcion1.equals(suscripcion2));
 
+        System.out.println(cliente1);
+        System.out.println(suscripcion1);
     }
 }

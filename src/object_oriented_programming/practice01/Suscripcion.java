@@ -39,4 +39,8 @@ public class Suscripcion {
     public boolean equals(Suscripcion suscripcion) {
         return getTipo().equals(suscripcion.getTipo()) && getPeriodicidad() == suscripcion.getPeriodicidad() && getCosto() == suscripcion.getCosto();
     }
+
+    public String toString() {
+        return "Suscripcion: " + getTipo() + "\nCosto: " + getCosto() + "\nPaga cada: " + getPeriodicidad() + " mes o meses";
+    }
 }
