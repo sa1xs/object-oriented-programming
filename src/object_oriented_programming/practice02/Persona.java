@@ -1,7 +1,5 @@
 package object_oriented_programming.practice02;
 
-import java.sql.SQLOutput;
-
 public class Persona  {
 
     private String nombre;
@@ -9,9 +7,11 @@ public class Persona  {
     private Pasaporte pasaporte;
     private Mascota mascota;
 
-    public Persona(String nombre, String apellido) {
+    public Persona(String nombre, String apellido, Pasaporte pasaporte, Mascota mascota) {
         this.nombre = nombre;
         this.apellido = apellido;
+        this.pasaporte = null;
+        this.mascota = null;
     }
 
     public String getNombre() {

@@ -6,8 +6,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Persona persona1 = new Persona("Sebastian", "Salas");
-        Persona persona2 = new Persona("Roberto", "Hernandez");
+        Persona persona1 = new Persona("Sebastian", "Salas", null, null);
+        Persona persona2 = new Persona("Roberto", "Hernandez", null, null);
 
         Pasaporte pasaporte1 = new Pasaporte(
                 "CR123456",
