@@ -12,3 +12,6 @@ target/
 # Operating system files
 .DS_Store
 Thumbs.db
+
+# Draw.io backup files
+*.drawio.bkp
